@@ -42,3 +42,23 @@ npm run deploy
 ```
 
 ##  Project Structure
+src/
+├── context/
+│   ├── BoardContext.jsx     # Board state (columns, cards, checklist logic)
+│   └── ThemeContext.jsx     # Dark mode + background theme state
+├── components/
+│   ├── Board.jsx            # DndContext + drag logic
+│   ├── Column.jsx           # Single column (To Do / In Progress / Done)
+│   ├── Card.jsx              # Single draggable card
+│   ├── CardModal.jsx        # Card details modal (tags, priority, due date, checklist)
+│   ├── AddCardForm.jsx       # Add new card form
+│   ├── Navbar.jsx            # Dark mode toggle, background picker, stats
+│   └── Dashboard.jsx          # Progress overview donut chart
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+
+##  Author
+
+Made by [deemaa-hub](https://github.com/deemaa-hub)

@@ -2,9 +2,9 @@
 
 A professional, feature-rich Kanban board built with React + Vite — created as a portfolio project.
 
-🔗 **Live Demo:** [https://deemaa-hub.github.io/kanban-board/](https://deemaa-hub.github.io/kanban-board/)
+ **Live Demo:** [https://deemaa-hub.github.io/kanban-board/](https://deemaa-hub.github.io/kanban-board/)
 
-## ✨ Features
+##  Features
 
 - **Drag & Drop** — smooth card dragging between columns using `@dnd-kit`
 - **Dark Mode** — full light/dark theme toggle with persistent CSS variables
@@ -17,14 +17,14 @@ A professional, feature-rich Kanban board built with React + Vite — created as
 - **Responsive Design** — adapts across desktop, tablet, and mobile breakpoints
 - **Persistent State** — all data saved automatically to `localStorage`
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - React (JavaScript) + Vite
 - `@dnd-kit/core`, `@dnd-kit/sortable`, `@dnd-kit/utilities`
 - Context API + `useReducer` for state management
 - Plain CSS with CSS variables (no UI framework)
 
-## 🚀 Running Locally
+##  Running Locally
 
 ```bash
 git clone https://github.com/deemaa-hub/kanban-board.git
@@ -33,7 +33,7 @@ npm install
 npm run dev
 ```
 
-## 📦 Deployment
+##  Deployment
 
 This project is deployed to GitHub Pages via `gh-pages`:
 
@@ -41,4 +41,4 @@ This project is deployed to GitHub Pages via `gh-pages`:
 npm run deploy
 ```
 
-## 📁 Project Structure
+##  Project Structure

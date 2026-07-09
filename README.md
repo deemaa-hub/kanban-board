@@ -1,16 +1,44 @@
-# React + Vite
+# 🗂️ Kanban Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional, feature-rich Kanban board built with React + Vite — created as a portfolio project.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [https://deemaa-hub.github.io/kanban-board/](https://deemaa-hub.github.io/kanban-board/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Drag & Drop** — smooth card dragging between columns using `@dnd-kit`
+- **Dark Mode** — full light/dark theme toggle with persistent CSS variables
+- **Custom Backgrounds** — Ocean, Sunset, Forest, and Midnight gradient themes
+- **Tags & Labels** — color-coded Bug / Feature / Refactor tags
+- **Priority Levels** — Low, Medium, High priority per card
+- **Due Dates** — with visual warnings for approaching or overdue tasks
+- **Checklists** — per-card checklist items with a live progress bar
+- **Dashboard** — donut chart (pure CSS `conic-gradient`, no external libraries) showing task distribution
+- **Responsive Design** — adapts across desktop, tablet, and mobile breakpoints
+- **Persistent State** — all data saved automatically to `localStorage`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- React (JavaScript) + Vite
+- `@dnd-kit/core`, `@dnd-kit/sortable`, `@dnd-kit/utilities`
+- Context API + `useReducer` for state management
+- Plain CSS with CSS variables (no UI framework)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Running Locally
+
+```bash
+git clone https://github.com/deemaa-hub/kanban-board.git
+cd kanban-board
+npm install
+npm run dev
+```
+
+## 📦 Deployment
+
+This project is deployed to GitHub Pages via `gh-pages`:
+
+```bash
+npm run deploy
+```
+
+## 📁 Project Structure
